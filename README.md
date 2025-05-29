@@ -13,9 +13,9 @@ This project demonstrates a basic CI/CD pipeline for Detection-as-Code using Sig
 - YAML linting
 
 ## 📁 Structure
-/rules/ → Source Sigma rules
-/converted/ → Transformed rules for backend use (e.g., SPL, KQL)
-/.github/workflows/ci.yml → CI pipeline to validate and convert
+- /rules/ → Source Sigma rules
+- /converted/ → Transformed rules for backend use (e.g., SPL, KQL)
+- /.github/workflows/ci.yml → CI pipeline to validate and convert
 
 
 ---
